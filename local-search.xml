@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>线性代数</title>
+    <link href="/2021/01/24/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
+    <url>/2021/01/24/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="行列式"><a href="#行列式" class="headerlink" title="行列式"></a>行列式</h1><h2 id="n阶行列式引入"><a href="#n阶行列式引入" class="headerlink" title="n阶行列式引入"></a>n阶行列式引入</h2><h3 id="二阶行列式引入"><a href="#二阶行列式引入" class="headerlink" title="二阶行列式引入"></a>二阶行列式引入</h3><p>现有如下二元一次方程组<br>$$<br>\left{<br>\begin{array}{c}<br>    a_{11}x_1+a_{12}x_2=b_1\<br>    a_{21}x_1+a_{22}x_2=b_2\<br>\end{array}<br>\right.<br>$$<br>我们可以用消元法求出该方程组的解<br>$$<br>(x_{11}x_{22}-x_{21}x_{21})x_1=b_1a_{22}-b_2a_{12}\<br>(x_{11}x_{22}-x_{21}x_{21})x_2=b_1a_{21}-b_2a_{11}<br>$$<br>显然非常复杂</p><p>为简化该式并进行讨论</p><p>做出以下定义：</p><p><strong>定义一</strong></p><p>二阶行列式：<br>$$<br>\left|<br>    \begin{matrix}<br>        x_{11} &amp; x_{12}\<br>        x_{21} &amp; x_{22}\<br>    \end{matrix}<br>\right|<br>=<br>x_{11}\cdot x_{22}-x_{21}\cdot x_{21}<br>$$<br><strong>定义二</strong></p><p>系数行列式：</p><p>​    对于方程组：<br>$$<br>\left{<br>\begin{array}{c}<br>    a_{11}x_1+a_{12}x_2=b_1\<br>    a_{21}x_1+a_{22}x_2=b_2\<br>\end{array}<br>\right.<br>$$<br>​    有行列式：<br>$$<br>D=<br>\left|<br>    \begin{matrix}<br>        x_{11} &amp; x_{12}\<br>        x_{21} &amp; x_{22}\<br>    \end{matrix}<br>\right|<br>$$<br>​    则称D为方程组的系数行列式</p><p>​    还有<br>$$<br>D_1=<br>\left|<br>    \begin{matrix}<br>        b_1 &amp; x_{12}\<br>        b_2 &amp; x_{22}\<br>    \end{matrix}<br>\right|<br>\<br>D_2=<br>\left|<br>    \begin{matrix}<br>        x_{11} &amp; b_1\<br>        x_{21} &amp; b_2\<br>    \end{matrix}<br>\right|<br>$$<br>这样我们便可以简化方程组的解：<br>$$<br>x_1=\frac{D_1}{D}\<br>x_2=\frac{D_2}{D}\<br>(D\neq 0)\<br>$$</p><h3 id="n阶行列式"><a href="#n阶行列式" class="headerlink" title="n阶行列式"></a>n阶行列式</h3><p>（1）一阶行列式<br>$$<br>\begin{matrix}<br>|a_{11}|\<br>\end{matrix}<br>=a_{11}<br>$$<br>（2）二阶行列式<br>$$<br>\left|<br>    \begin{matrix}<br>        a_{11} &amp; a_{12}\<br>        a_{21} &amp; a_{22}\<br>    \end{matrix}<br>\right|<br>=a_{11}a_{22}-a_{12}-a_{21}<br>$$<br>（3）三阶行列式<br>$$<br>\left|<br>    \begin{matrix}<br>        a_{11}&amp;a_{12}&amp;a_{13}\<br>        a_{21}&amp;a_{22}&amp;a_{23}\<br>        a_{31}&amp;a_{32}&amp;a_{33}\<br>    \end{matrix}<br>\right|<br>=<br>a_{11}a_{22}a_{33}+a_{12}a_{23}a_{31}+a_{13}a_{21}a_{32}<br>-a_{13}a_{22}a_{31}-a_{12}a_{21}a_{33}-a_{11}a_{23}a_{32}<br>$$</p><p>n阶行列式有n！项</p><h2 id="排列与逆序"><a href="#排列与逆序" class="headerlink" title="排列与逆序"></a>排列与逆序</h2>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>水星记</title>
     <link href="/2021/01/24/%E6%B0%B4%E6%98%9F%E8%AE%B0/"/>
     <url>/2021/01/24/%E6%B0%B4%E6%98%9F%E8%AE%B0/</url>
