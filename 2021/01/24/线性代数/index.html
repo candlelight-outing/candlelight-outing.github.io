@@ -184,7 +184,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      405 字
+      891 字
     </span>
   
 
@@ -194,7 +194,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      6
+      13
        分钟
     </span>
   
@@ -237,7 +237,29 @@
 <p>​    还有<br>$$<br>D_1=<br>\left|<br>    \begin{matrix}<br>        b_1 &amp; x_{12}\<br>        b_2 &amp; x_{22}\<br>    \end{matrix}<br>\right|<br>\<br>D_2=<br>\left|<br>    \begin{matrix}<br>        x_{11} &amp; b_1\<br>        x_{21} &amp; b_2\<br>    \end{matrix}<br>\right|<br>$$<br>这样我们便可以简化方程组的解：<br>$$<br>x_1=\frac{D_1}{D}\<br>x_2=\frac{D_2}{D}\<br>(D\neq 0)\<br>$$</p>
 <h3 id="n阶行列式"><a href="#n阶行列式" class="headerlink" title="n阶行列式"></a>n阶行列式</h3><p>（1）一阶行列式<br>$$<br>\begin{matrix}<br>|a_{11}|\<br>\end{matrix}<br>=a_{11}<br>$$<br>（2）二阶行列式<br>$$<br>\left|<br>    \begin{matrix}<br>        a_{11} &amp; a_{12}\<br>        a_{21} &amp; a_{22}\<br>    \end{matrix}<br>\right|<br>=a_{11}a_{22}-a_{12}-a_{21}<br>$$<br>（3）三阶行列式<br>$$<br>\left|<br>    \begin{matrix}<br>        a_{11}&amp;a_{12}&amp;a_{13}\<br>        a_{21}&amp;a_{22}&amp;a_{23}\<br>        a_{31}&amp;a_{32}&amp;a_{33}\<br>    \end{matrix}<br>\right|<br>=<br>a_{11}a_{22}a_{33}+a_{12}a_{23}a_{31}+a_{13}a_{21}a_{32}<br>-a_{13}a_{22}a_{31}-a_{12}a_{21}a_{33}-a_{11}a_{23}a_{32}<br>$$</p>
 <p>n阶行列式有n！项</p>
-<h2 id="排列与逆序"><a href="#排列与逆序" class="headerlink" title="排列与逆序"></a>排列与逆序</h2>
+<h2 id="排列与逆序"><a href="#排列与逆序" class="headerlink" title="排列与逆序"></a>排列与逆序</h2><h3 id="排列及其逆序数"><a href="#排列及其逆序数" class="headerlink" title="排列及其逆序数"></a>排列及其逆序数</h3><p><strong>定义一</strong></p>
+<p>由1，2，···，n个数码组成的一个有序数组称为一个n阶排列</p>
+<p><strong>定义二</strong></p>
+<p>我们规定各元素之间有一个标准次序，n个不同自然数，规定由小到大为<strong>标准次序</strong></p>
+<p><strong>定义三</strong></p>
+<p>在一个排列<br>$$<br>(i_1i_2\cdots i_t\cdots i_s\cdots i_n)<br>$$<br>中，若<br>$$<br>i_t&gt;i_s<br>$$<br>则称这两个数组成一个<strong>逆序</strong></p>
+<p><strong>定义四</strong></p>
+<p>一个排列中所以逆序的总数称为此排列的<strong>逆序数</strong>。</p>
+<p>逆序数为奇数的排列称为<strong>奇排列</strong>；</p>
+<p>逆序数为偶数的排列称为<strong>偶排列</strong>。</p>
+<p><strong>定义五</strong></p>
+<p>把一个排列中某两个数字位置互换，其余数字位置不变，我们称这种变换为<strong>对换</strong></p>
+<p><strong>定理一</strong></p>
+<p>一次对换改变排列奇偶性</p>
+<p>​    <strong>推论一</strong></p>
+<p>​    对任意一个排列都可以通过对换转化成标准排列，并且对换次数的奇偶性与该排列奇偶性相同</p>
+<hr>
+<p>重新考察二阶行列式与三阶行列式，我们可以得到<br>$$<br>\left|<br>    \begin{matrix}<br>        a_{11}&amp;a_{12}\<br>        a_{21}&amp;a_{22}\<br>    \end{matrix}<br>\right|<br>=<br>\sum_{j_1j_2}(-1)^{\tau(j_1j_2)}a_{1j_1}a_{2j_2}<br>$$</p>
+<p>$$<br>\left|<br>    \begin{matrix}<br>        a_{11}&amp;a_{12}&amp;a_{13}\<br>        a_{21}&amp;a_{22}&amp;a_{23}\<br>        a_{31}&amp;a_{32}&amp;a_{33}\<br>    \end{matrix}<br>\right|<br>=<br>\sum_{j_1j_2j_3}(-1)^{\tau(j_1j_2j_3)}a_{1j_1}a_{2j_2}a_{3j_3}<br>$$</p>
+<h2 id="n阶行列式-1"><a href="#n阶行列式-1" class="headerlink" title="n阶行列式"></a>n阶行列式</h2><p><strong>定义</strong></p>
+<p>略<br>$$<br>D=<br>\left|<br>    \begin{matrix}<br>        a_{11}&amp;a_{12}&amp;\dots &amp;a_{1n}\<br>        a_{21}&amp;a_{22}&amp;\dots &amp;a_{2n}\<br>        \vdots &amp;\vdots &amp;\ddots &amp;\vdots\<br>        a_{n1}&amp;a_{n2}&amp;\dots &amp;a{nn}\<br>    \end{matrix}<br>\right|<br>=<br>\sum_{j_1j_2\dots j_n}(-1)^{\tau(j_1j_2\dots j_n)}a_{ij_1}a_{2j_2}\dots a_{nj_n}<br>$$<br>n阶行列式可以这样表示<br>$$<br>D_{n}=|a_{ij}|_n<br>$$</p>
+<h3 id="几个特殊的行列式"><a href="#几个特殊的行列式" class="headerlink" title="几个特殊的行列式"></a>几个特殊的行列式</h3><p>（1）n阶下（上）三角形行列式<br>$$<br>\left|<br>    \begin{matrix}<br>        a_{11}&amp;0&amp;\dots &amp;0\<br>        a_{12}&amp;a_{22}&amp;\dots &amp;0\<br>        \vdots &amp;\vdots &amp;\ddots &amp;\vdots\<br>        a_{n1}&amp;a_{n2}&amp;\dots &amp;a_{nn}\<br>    \end{matrix}<br>\right|<br>=<br>a_{11}a_{22}a_{33}\dots a_{nn}<br>$$</p>
+
             </div>
             <hr>
             <div>
