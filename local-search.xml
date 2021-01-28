@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>1月28日</title>
+    <link href="/2021/01/28/1%E6%9C%8828%E6%97%A5/"/>
+    <url>/2021/01/28/1%E6%9C%8828%E6%97%A5/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs c"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span><span class="hljs-meta-string">&lt;stdio.h&gt;</span></span><br><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br><span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Hello World&quot;</span>);<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>1月27号</title>
     <link href="/2021/01/27/1%E6%9C%8827%E5%8F%B7/"/>
     <url>/2021/01/27/1%E6%9C%8827%E5%8F%B7/</url>
